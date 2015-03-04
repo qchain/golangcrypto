@@ -6,9 +6,9 @@ package openpgp
 
 import (
 	"crypto/rsa"
-	"golang.org/x/crypto/openpgp/armor"
-	"golang.org/x/crypto/openpgp/errors"
-	"golang.org/x/crypto/openpgp/packet"
+	"github.com/btcsuite/golangcrypto/openpgp/armor"
+	"github.com/btcsuite/golangcrypto/openpgp/errors"
+	"github.com/btcsuite/golangcrypto/openpgp/packet"
 	"io"
 	"time"
 )

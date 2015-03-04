@@ -7,8 +7,8 @@ package packet
 import (
 	"crypto/rsa"
 	"encoding/binary"
-	"golang.org/x/crypto/openpgp/elgamal"
-	"golang.org/x/crypto/openpgp/errors"
+	"github.com/btcsuite/golangcrypto/openpgp/elgamal"
+	"github.com/btcsuite/golangcrypto/openpgp/errors"
 	"io"
 	"math/big"
 	"strconv"

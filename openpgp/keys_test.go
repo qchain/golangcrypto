@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/crypto/openpgp/packet"
+	"github.com/btcsuite/golangcrypto/openpgp/packet"
 )
 
 func TestKeyExpiry(t *testing.T) {
