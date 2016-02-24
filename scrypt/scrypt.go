@@ -5,13 +5,13 @@
 // Package scrypt implements the scrypt key derivation function as defined in
 // Colin Percival's paper "Stronger Key Derivation via Sequential Memory-Hard
 // Functions" (http://www.tarsnap.com/scrypt/scrypt.pdf).
-package scrypt // import "github.com/btcsuite/golangcrypto/scrypt"
+package scrypt // import "github.com/qchain/golangcrypto/scrypt"
 
 import (
 	"crypto/sha256"
 	"errors"
 
-	"github.com/btcsuite/golangcrypto/pbkdf2"
+	"github.com/qchain/golangcrypto/pbkdf2"
 )
 
 const maxInt = int(^uint(0) >> 1)

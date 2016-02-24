@@ -10,7 +10,7 @@ import (
 	"crypto/rand"
 	"testing"
 
-	"github.com/btcsuite/golangcrypto/ssh"
+	"github.com/qchain/golangcrypto/ssh"
 )
 
 func TestCertLogin(t *testing.T) {

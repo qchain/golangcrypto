@@ -4,15 +4,15 @@
 
 // Package packet implements parsing and serialization of OpenPGP packets, as
 // specified in RFC 4880.
-package packet // import "github.com/btcsuite/golangcrypto/openpgp/packet"
+package packet // import "github.com/qchain/golangcrypto/openpgp/packet"
 
 import (
 	"bufio"
 	"crypto/aes"
 	"crypto/cipher"
 	"crypto/des"
-	"github.com/btcsuite/golangcrypto/cast5"
-	"github.com/btcsuite/golangcrypto/openpgp/errors"
+	"github.com/qchain/golangcrypto/cast5"
+	"github.com/qchain/golangcrypto/openpgp/errors"
 	"io"
 	"math/big"
 )

@@ -15,7 +15,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/btcsuite/golangcrypto/ssh"
+	"github.com/qchain/golangcrypto/ssh"
 )
 
 // startAgent executes ssh-agent, and returns a Agent interface to it.

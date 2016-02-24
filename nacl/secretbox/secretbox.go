@@ -15,11 +15,11 @@ negligible risk of collision.
 
 This package is interoperable with NaCl: http://nacl.cr.yp.to/secretbox.html.
 */
-package secretbox // import "github.com/btcsuite/golangcrypto/nacl/secretbox"
+package secretbox // import "github.com/qchain/golangcrypto/nacl/secretbox"
 
 import (
-	"github.com/btcsuite/golangcrypto/poly1305"
-	"github.com/btcsuite/golangcrypto/salsa20/salsa"
+	"github.com/qchain/golangcrypto/poly1305"
+	"github.com/qchain/golangcrypto/salsa20/salsa"
 )
 
 // Overhead is the number of bytes of overhead when boxing a message.

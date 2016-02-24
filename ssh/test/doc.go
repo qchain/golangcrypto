@@ -4,4 +4,4 @@
 
 // This package contains integration tests for the
 // code.google.com/p/go.crypto/ssh package.
-package test // import "github.com/btcsuite/golangcrypto/ssh/test"
+package test // import "github.com/qchain/golangcrypto/ssh/test"

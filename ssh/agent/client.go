@@ -8,7 +8,7 @@
 References:
   [PROTOCOL.agent]:    http://www.openbsd.org/cgi-bin/cvsweb/src/usr.bin/ssh/PROTOCOL.agent
 */
-package agent // import "github.com/btcsuite/golangcrypto/ssh/agent"
+package agent // import "github.com/qchain/golangcrypto/ssh/agent"
 
 import (
 	"bytes"
@@ -24,7 +24,7 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/btcsuite/golangcrypto/ssh"
+	"github.com/qchain/golangcrypto/ssh"
 )
 
 // Agent represents the capabilities of an ssh-agent.
